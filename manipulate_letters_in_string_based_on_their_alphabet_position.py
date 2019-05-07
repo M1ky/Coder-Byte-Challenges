@@ -21,7 +21,6 @@ def LetterChanges(str):
 
 test = "hello world"
 
-
 print(LetterChanges(test))
 
 
