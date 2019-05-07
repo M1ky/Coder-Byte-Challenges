@@ -7,15 +7,10 @@ import itertools
 
 
 def ArrayAdditionI(arr):
-	# find max value in arr
 
 	_max = max(arr)
 	arr.remove(_max)
 	_comb = []
-
-	# for i in range(1, len(arr)):
-	# 	if arr[i] > _max:
-	# 		_max = arr[i]
 
 	for i in range(len(arr)+1):
 		for cb in itertools.combinations(arr, i):
